@@ -87,6 +87,9 @@
     transform: scale(0.9);
     color: #C2E8FF;
   }
+  header .navigation .material-icons{
+    padding-right: 1vmin;
+  }
   header .navigation .fa-brands.fa-discord {
     padding-right: 1vmin;
   }
@@ -95,6 +98,26 @@
   }
   header .navigation .fa-brands.fa-youtube {
     padding-right: 1vmin;
+  }
+  header .navigation .fa-solid.fa-plus-large {
+    padding-right: 1vmin;
+  }
+  header .ads {
+    transform: scale(0);
+    animation: bounce-in 1s ease-in-out 2s 1 normal both;
+    background-color: #9BD6F8;
+    border-radius: 2vmin;
+    padding: 0.5vmax;
+    font-size: 1.5vmax;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    margin-top: 10vmax;
+  }
+  header .ads .material-icons {
+    font-size: 2vmax;
   }
   .hello-logo {
     animation: bounce-in 1s ease-in-out 0s 1 normal;
