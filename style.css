@@ -102,7 +102,7 @@
   header .navigation .fa-solid.fa-plus-large {
     padding-right: 1vmin;
   }
-  header .ads {
+  header .invite {
     transform: scale(0);
     animation: bounce-in 1s ease-in-out 2s 1 normal both;
     background-color: #9BD6F8;
@@ -116,7 +116,7 @@
     position: absolute;
     margin-top: 10vmax;
   }
-  header .ads .material-icons {
+  header .invite .material-icons {
     font-size: 2vmax;
   }
   .hello-logo {
@@ -154,6 +154,15 @@
     font-size: 3vmin;
     font-family: 'Nunito', sans-serif;
   }
+
+  .error {
+    color: white;
+    font-family: 'Nunito', sans-serif;
+    font-size: 100px;
+    text-align: center;
+    margin: 100px;
+  }
+
   @keyframes change-background {
     from {
       background-position-x: -32px;
